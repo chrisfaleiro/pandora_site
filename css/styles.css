@@ -1,0 +1,105 @@
+@font-face {
+	font-family: toot;
+	src: url("../fontes/DJB TOOTSIEWOOTSIE.ttf");
+}
+
+@font-face {
+	font-family: HammersmithOne;
+	src: url("../fontes/HammersmithOne-Regular.ttf");
+}
+
+body{	
+	background-image: url("../img/background1.jpg");	
+	margin: 0px;
+	padding: 0px;
+	color: #663300;
+	line-height: 27pt;
+}
+
+header{
+	background-color: #D3AD98;
+	height: 100px;
+}
+
+header .logo{
+	float:left;
+	width: 90px;	
+	height: 90px;
+	margin: 5px;
+	padding: 0px 30px;
+	border-radius: 50%;
+}
+
+header .menu{
+	text-align: center;
+	height: 90px;		
+}
+
+header .menu .menu_item{
+	color: #6B4226;	
+	height: 50px;
+    font-size: 40px;
+    padding: 45px 30px 5px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "HammersmithOne"; 
+}
+
+header .menu .menu_item:hover{
+	color: #ffffff;
+	background-color: #874631;
+}
+
+header .menu .menu_item:active{
+	color: #ffffff;
+	background-color: #B25C41;
+}
+
+.imagem_inicial{
+	float:left;
+	width: 200px;	
+	height: 200px;
+	margin: 25px 50px;
+	border-radius: 50%;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    font-family: "toot"; 
+    color: #990000;
+}
+
+section{
+	background-color: #FEFCE5;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px;	
+	font-size: 27px;	
+	text-align: left;
+	font-family: "HammersmithOne"; 
+}
+
+footer{
+    background-color: #D3AD98;
+   	height: 30px;
+}
+
+footer .dados_cabecalho{
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+   	color: #6B4226;	
+	font-family: "HammersmithOne"; 
+	font-size: 16px;
+}
+
+.esquerda{
+	float: left;
+}
+
+.direita{
+	float: right;
+}
